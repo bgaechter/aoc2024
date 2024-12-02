@@ -59,7 +59,7 @@ fn main() {
 
     let (list1, list2): (Vec<_>, Vec<_>) = number_pairs.into_iter().unzip();
 
-    // Part One: Create pairs vector first, then pass reference to it
+    // Part One
     let pairs: Vec<(i64, i64)> = list1.iter()
         .zip(list2.iter())
         .map(|(&a, &b)| (a, b))

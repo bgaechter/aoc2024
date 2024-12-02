@@ -32,7 +32,7 @@ fn can_be_made_valid(seq: &[i64]) -> bool {
 }
 
 fn main() {
-    let numbers: Vec<Vec<i64>> = read_lines("/home/benny/git/aoc2024/day02/input02.txt")
+    let numbers: Vec<Vec<i64>> = read_lines("input02.txt")
         .into_iter()
         .flatten()
         .filter_map(|line| line.ok())
